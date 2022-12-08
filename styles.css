@@ -39,6 +39,10 @@ li {
   font-weight: 500;
 }
 
+a {
+  color: #1e1e1e;
+}
+
 button {
   height: 56px;
   border-radius: 16px;
@@ -142,7 +146,7 @@ footer {
 }
 
 .hero-info-image {
-  height: 594px;
+  height: 100%;
   width: 542px;
   border-radius: 40px;
   border-color: #219653;
@@ -347,6 +351,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .section-contact-item-icon {
