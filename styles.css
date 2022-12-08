@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fefefe;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 58px;
+  font-size: 56px;
+  color: #1e1e1e;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2.verde {
+  color: #219653;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+button {
+  height: 56px;
+  border-radius: 16px;
+  background-color: #219653;
+  border-width: 0px;
+  color: #fefefe;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+p.card {
+  font-size: 16px;
+  margin-top: 8px;
+  text-align: center;
+  max-width: 70%;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  height: 156px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 1216px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 90vh;
+}
+
+.barra-navegacao {
+  display: flex;
+  width: 1216px;
+  height: 72px;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.titulo-navegacao {
+  color: #1e1e1e;
+  font-size: 24px;
+  letter-spacing: -0.015rem;
+  font-weight: bold;
+}
+
+.links-navegacao {
+  color: #1e1e1e;
+  font-size: 16px;
+  letter-spacing: -0.015rem;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1216px;
+  height: 594px;
+  padding-top: 64px;
+}
+
+.hero-info-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.hero-info-subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 62%;
+  margin-top: 16px;
+}
+
+.hero-info-image {
+  height: 594px;
+  width: 542px;
+  border-radius: 40px;
+  border-color: #219653;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.hero-info-icons-container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.hero-info-icons-img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.section-abilities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.ability-cards-container {
+  display: grid;
+  width: 100%;
+  column-gap: 36px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  margin-top: 48px;
+}
+
+.ability-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 312px;
+  height: 690px;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 12px;
+  border-style: solid;
+  padding-top: 16px;
+}
+
+.ability-card-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #219653;
+  margin-bottom: 12px;
+}
+
+.ability-card-icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+.ability-card-subtitle {
+  font-size: 16px;
+  margin-top: 8px;
+  text-align: center;
+  max-width: 70%;
+}
+
+.ability-list {
+  width: 90%;
+}
+
+.section-portfolio {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.section-portfolio-grid {
+  display: grid;
+  width: 100%;
+  column-gap: 36px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  margin-top: 48px;
+}
+
+.section-portfolio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 384px;
+  height: 300px;
+  border-width: 2px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-radius: 24px;
+}
+
+.section-portfolio-img {
+  width: 220px;
+  height: 156px;
+  margin-bottom: 12px;
+}
+
+.section-portfolio-card-links {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.section-portfolio-card-icon-image {
+  width: 24px;
+  height: 24px;
+}
+
+.section-experiences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.section-experiences-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 800px;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.section-experiences-card-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.section-experiences-card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 16px;
+}
+
+.section-experiences-card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.section-experiences-card-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 4px 0px 0px 0px;
+}
+
+.section-experiences-card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 6px 0px 0px 0px;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.section-contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-item-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  width: 1216px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
