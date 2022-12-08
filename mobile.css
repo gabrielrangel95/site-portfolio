@@ -82,6 +82,12 @@
     width: 390px;
   }
 
+  .section-abilities {
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
   .ability-cards-container {
     row-gap: 56px;
     justify-content: space-between;
@@ -101,8 +107,28 @@
 
   .section-portfolio-grid {
     row-gap: 36px;
-    grid-template-columns: auto;
-    margin-top: 24px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .section-portfolio-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 46vw;
+    height: auto;
+    padding: 24px 0px;
+  }
+
+  .section-portfolio-card-links {
+    width: 40%;
+  }
+
+  .section-portfolio-card-icon-image {
+    width: 40px;
+    height: auto;
   }
 
   .section-experiences-card {
@@ -121,11 +147,5 @@
   .hero-info-icons-container {
     margin-top: 40px;
     width: 60%;
-  }
-
-  .section-abilities {
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
   }
 }
